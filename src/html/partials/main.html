@@ -1,23 +1,33 @@
 <main class="main">
-  <section class="main__section1">
-    <small class="main__section1--small">insomnia tips</small>
-    <h3 class="main__section1--subtitle">looking through a window</h3>
-    <p class="main__section1__paragraph">
+  <section class="section1">
+    <small class="section1__insomnia">insomnia tips</small>
+    <h3 class="section1__subtitle">looking through a window</h3>
+    <p class="section1__paragraph">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore facilis
       voluptas voluptatum et debitis? Similique voluptas optio hic et. Nemo
       quisquam iste, commodi explicabo beatae repudiandae laborum hic fuga
       dolorem!
     </p>
-    <button class="main__section1--button">go</button>
+    <button class="section1__button">go</button>
   </section>
   <section class="section2">
     <h3 class="section2__subtitle">3 reasons to purchase</h3>
-    <h4>Ut sed metus</h4>
-    <p>Lorem ipsum dolor sit, amet consectetur.</p>
-    <h4>Curabitur ac erat</h4>
-    <p>Mauris mattis urna quis lorem molestie.</p>
-    <h4>Morbi dictum</h4>
-    <p>Aliquam in dolor et dolor tincidunt.</p>
+    <include
+      src="./reason.html"
+      title="Ut sed metus"
+      description="Lorem ipsum dolor sit, amet consectetur."
+    ></include>
+    <include
+      src="./reason.html"
+      title="Curabitur ac erat"
+      description="Mauris matis urna quis lorem molestie."
+    ></include>
+    <include
+      src="./reason.html"
+      title="Morbi dictum"
+      description="Aliquam in dolor et dolor tincidunt."
+    ></include>
+
     <button class="section2__button">more reasons</button>
   </section>
 </main>
