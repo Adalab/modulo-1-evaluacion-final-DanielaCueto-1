@@ -1,0 +1,16 @@
+.section2 {
+  background-color: $bg_section2;
+
+  &__button {
+    width: 184px;
+    height: 45px;
+    background-color: $button_color;
+    font-size: 20px;
+    color: $color_white;
+    font-family: $paragraph_font;
+    border-radius: 22.5px;
+    border: 2px solid $button_color;
+    display: block;
+    margin: auto;
+  }
+}
