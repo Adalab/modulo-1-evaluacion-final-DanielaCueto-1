@@ -50,4 +50,13 @@
     align-items: center;
     margin: 40px 0;
   }
+
+  @media all and(min-width:1024px) {
+    &__title {
+      font-size: 100px;
+    }
+    &__paragraph {
+      font-size: 24px;
+    }
+  }
 }

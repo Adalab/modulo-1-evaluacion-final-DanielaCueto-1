@@ -10,16 +10,16 @@
     border-radius: 50%;
     transform: translate(0, -80%);
   }
-  &__heart {
-    color: $button_color;
-  }
 }
 .conections {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 15px;
+  &__heart {
+    color: $button_color;
+  }
 
   &__link {
     text-decoration: none;
@@ -31,5 +31,26 @@
 
   &__social {
     padding: 20px;
+  }
+
+  &__copyright {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  @media all and(min-width: 720px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    &__social {
+      padding-top: 0;
+    }
+    &__welove {
+      order: -1;
+    }
+    &__copyright {
+      text-align: left;
+    }
   }
 }

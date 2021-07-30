@@ -11,13 +11,6 @@
     padding: 50px 0;
   }
 
-  &__wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 15px;
-    padding: 0 90px 20px;
-  }
-
   &__button {
     width: 184px;
     height: 45px;
@@ -27,5 +20,31 @@
     font-family: $paragraph_font;
     border-radius: 22.5px;
     border: 2px solid $button_color;
+  }
+
+  @media all and (min-width: 1024px) {
+    &__title {
+      font-size: 32px;
+    }
+    &__button {
+      width: 255px;
+    }
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 0 90px 20px;
+
+    @media all and (min-width: 720px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 60px;
+      padding: 0 15px;
+      &__title {
+        font-size: 26px;
+      }
+    }
   }
 }
