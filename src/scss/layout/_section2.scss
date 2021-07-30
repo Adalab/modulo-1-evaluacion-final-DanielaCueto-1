@@ -1,5 +1,22 @@
 .section2 {
   background-color: $bg_section2;
+  text-align: center;
+  padding-bottom: 70px;
+
+  &__title {
+    font-size: 26px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: $font_titles;
+    padding: 50px 0;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    padding: 0 90px 20px;
+  }
 
   &__button {
     width: 184px;
@@ -10,7 +27,5 @@
     font-family: $paragraph_font;
     border-radius: 22.5px;
     border: 2px solid $button_color;
-    display: block;
-    margin: auto;
   }
 }

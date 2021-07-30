@@ -1,0 +1,10 @@
+.reason {
+  padding: 30px 0;
+  align-self: center;
+  &__title {
+    font-size: 18px;
+    font-weight: bold;
+    grid-auto-flow: column;
+    padding-bottom: 10px;
+  }
+}
