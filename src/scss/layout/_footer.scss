@@ -8,7 +8,19 @@
     height: 45px;
     border: 2px solid $color_white;
     border-radius: 50%;
-    transform: translate(0, -80%);
+    position: relative;
+    bottom: 40px;
+    animation-name: footerbutton;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    @keyframes footerbutton {
+      0% {
+        transform: rotate(0);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
   }
 }
 .conections {
@@ -17,6 +29,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
+
   &__heart {
     color: $button_color;
   }
