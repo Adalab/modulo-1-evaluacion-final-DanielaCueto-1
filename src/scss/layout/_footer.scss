@@ -53,4 +53,10 @@
       text-align: left;
     }
   }
+  @media all and (min-width: 1024px) {
+    justify-content: space-evenly;
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+  }
 }
