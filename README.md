@@ -15,3 +15,14 @@ For the styles given to the project, SASS was used to condense the code and toge
 ## Demo
 
 - [Link to the project](http://beta.adalab.es/modulo-1-evaluacion-final-DanielaCueto-1/)
+
+
+
+
+## About me
+<h1 align="center">Hi , I'm Daniela Cueto</h1>
+<h3 align="center">A passionate Jr frontend developer👩🏽‍💻 from Spain/Bolivia. Currently living in Lisbon</h3>
+
+- 🌱 I’m currently learning **HTML, CSS, GIT, GULP**
+
+- 📫 How to reach me **danisalazarcueto7@gmail.com**
