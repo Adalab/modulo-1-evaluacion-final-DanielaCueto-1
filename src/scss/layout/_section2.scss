@@ -20,9 +20,8 @@
     font-family: $paragraph_font;
     border-radius: 22.5px;
     border: 2px solid $button_color;
-    transition: font-size ease 2s, background-color ease 2s, color ease 1s;
+    transition: background-color ease 2s, color ease 1s;
     &:hover {
-      font-size: 25px;
       background-color: $color_white;
       color: $color_drop;
       border: solid #fdd0a9;

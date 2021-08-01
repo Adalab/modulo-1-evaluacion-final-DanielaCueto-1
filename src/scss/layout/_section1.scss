@@ -33,9 +33,8 @@
     height: 45px;
     border-radius: 22.5px;
     border: 2px solid $button_color;
-    transition: font-size ease 2s, color ease 2s, border ease 2s;
+    transition: color ease 2s, border ease 2s;
     &:hover {
-      font-size: 30px;
       color: #8a2be2;
       border: solid #8a2be2;
     }
